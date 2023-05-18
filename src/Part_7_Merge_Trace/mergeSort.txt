@@ -1,0 +1,21 @@
+Mergesort:
+
+1. [9, 0, 8, 3, 7, 1, 4] - Initial array
+2:      [9, 0, 8, 3] - sort left half
+3:          [9, 0] - sort left half
+4:              [9] - sort left half
+4:              [0] - sort right half
+4:              [0, 9] - merged and sorted
+3:          [8, 3] - sort right half
+4:              [8] - sort left half
+4:              [3] - sort right half
+4:              [3, 8] - merged and sorted
+3:          [0, 3, 8, 9] - merged and sorted
+2:      [7, 1, 4] - sort right half
+3:          [7, 1] - sort left half
+4:              [7] - sort left half
+4:              [1] - sort right half
+4:              [1, 7] - merged and sorted
+3:          [4] - sort right half
+3:          [1, 4, 7] - merged and sorted
+1: [0, 1, 4, 7, 9] - merged and sorted
