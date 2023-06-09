@@ -6,7 +6,6 @@ Part 1 - Implement the java.lang.Comparable<T> interface
 Oleksii Ishchenko for SDT 101
 */
 
-
 public class Main
 {
     public static void main (String[] args)
